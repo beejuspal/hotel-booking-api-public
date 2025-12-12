@@ -1,0 +1,2351 @@
+2025-08-13 11:07:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:07:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:07:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HotelBooking.Core.DTO.UserDTOs.CreateUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 11:07:03 [Information] HotelBooking.API.Controllers.UserController
+RegisterUser Response From Repository: CreateUserResponseDTO { UserId: -1, Message: "Email already exists!!", IsCreated: False }
+
+2025-08-13 11:07:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Register (HotelBooking.API)" in 2339.6663ms
+
+2025-08-13 11:09:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:09:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:09:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HotelBooking.Core.DTO.UserDTOs.CreateUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 11:09:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Register (HotelBooking.API)" in 10027.3456ms
+
+2025-08-13 11:09:31 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/auth/register"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Email', table 'HotelDB.dbo.Users'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:9f126eb8-e7f9-4ed1-b9ee-8bacf2bcfd9f
+Error Number:515,State:2,Class:16
+
+2025-08-13 11:17:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:17:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:17:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HotelBooking.Core.DTO.UserDTOs.CreateUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 11:17:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Register (HotelBooking.API)" in 6035.2797ms
+
+2025-08-13 11:17:33 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/auth/register"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Email', table 'HotelDB.dbo.Users'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0686594f-2535-44c1-8f1d-2cbeaa22df5e
+Error Number:515,State:2,Class:16
+
+2025-08-13 11:19:19 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:19:19 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:19:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Register\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(HotelBooking.Core.DTO.UserDTOs.CreateUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 11:19:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Register (HotelBooking.API)" in 4924.3522ms
+
+2025-08-13 11:19:24 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/auth/register"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Email', table 'HotelDB.dbo.Users'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:0686594f-2535-44c1-8f1d-2cbeaa22df5e
+Error Number:515,State:2,Class:16
+
+2025-08-13 11:23:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:23:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:23:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 11:23:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2113.5663ms
+
+2025-08-13 11:30:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:30:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:30:13 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 11:30:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:30:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:30:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 11:30:13 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:49:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1749.4987ms
+
+2025-08-13 12:49:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:49:47 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:49:47 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:50:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:50:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:50:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:50:12 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 645.4177ms
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:54:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2127.1136ms
+
+2025-08-13 12:54:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:23 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:23 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 30.4909ms
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:24 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 107.2977ms
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:39 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:54:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:54:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 369.0479ms
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 18.0692ms
+
+2025-08-13 12:54:56 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 23.1774ms
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 5.4776ms
+
+2025-08-13 12:55:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 7.3857ms
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.8597ms
+
+2025-08-13 12:55:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 7.7294ms
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 9.9582ms
+
+2025-08-13 12:56:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 6.3624ms
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 23.0922ms
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:57:17 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 12:57:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 12:57:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 337.8005ms
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.7973ms
+
+2025-08-13 12:57:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.0018ms
+
+2025-08-13 13:01:40 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:01:40 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:01:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:01:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2146.2117ms
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 62.9842ms
+
+2025-08-13 13:01:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 76.6527ms
+
+2025-08-13 13:02:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:02:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2090.6287ms
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 62.3319ms
+
+2025-08-13 13:02:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 63.4874ms
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 81.8634ms
+
+2025-08-13 13:02:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 81.9151ms
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:14:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 82.7028ms
+
+2025-08-13 13:14:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:14:30 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:14:30 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 12.2164ms
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:16:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 7.0828ms
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:17:03 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 9.4926ms
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:31 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2.4566ms
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:37 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 3.4461ms
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:21:55 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 5.4116ms
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:02 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 4.4776ms
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:22:05 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 5.6058ms
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:23:57 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2.2001ms
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:20 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 9.2661ms
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:32 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:24:44 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:44 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:44 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:24:44 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:44 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:24:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 3.3637ms
+
+2025-08-13 13:24:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:24:54 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 5.0276ms
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:55 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:25:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:59 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:25:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:25:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:26:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 24.7658ms
+
+2025-08-13 13:26:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:00 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2.1888ms
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 13:26:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:25:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:25:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:25:22 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:25:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:25:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:25:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:25:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1783.0033ms
+
+2025-08-13 14:25:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:25:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:25:23 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:31:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:31:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:31:29 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:31:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:31:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:31:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:31:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1648.3358ms
+
+2025-08-13 14:31:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:31:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:31:30 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:32:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 85.4406ms
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:32:04 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:37:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:02 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:37:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:37:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1883.8827ms
+
+2025-08-13 14:37:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:04 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 94.9825ms
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:37:27 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 75.6797ms
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:14 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 8.7155ms
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:33 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:38:53 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:53 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:53 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:38:53 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:53 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:38:53 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:38:53 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 8.7941ms
+
+2025-08-13 14:39:10 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:39:10 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:39:10 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:40:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:21 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:40:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:40:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 5.7778ms
+
+2025-08-13 14:40:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:22 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 17.7872ms
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:40:35 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 7.2403ms
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:38 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 20.0025ms
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:41 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:42:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:42:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 559.0829ms
+
+2025-08-13 14:42:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:42:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:42:53 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1502.3572ms
+
+2025-08-13 14:43:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:43:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:43:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:43:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.7659ms
+
+2025-08-13 14:43:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:43:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:43:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:43:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 4.8732ms
+
+2025-08-13 14:43:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:43:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:43:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:43:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 5.5533ms
+
+2025-08-13 14:44:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:44:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.8085ms
+
+2025-08-13 14:44:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:44:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.3415ms
+
+2025-08-13 14:44:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:50 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:44:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:44:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 19.2048ms
+
+2025-08-13 14:44:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:44:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:44:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.4371ms
+
+2025-08-13 14:45:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:45:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:45:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:45:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 11.0233ms
+
+2025-08-13 14:46:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:46:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:46:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:46:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.0472ms
+
+2025-08-13 14:49:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:20 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 14:49:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 14:49:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 12.0217ms
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.9293ms
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:49:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.4446ms
+
+2025-08-13 14:50:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:50:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 14:50:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 14:50:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 4.3591ms
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 24.2169ms
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2.2376ms
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:02:29 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+
+2025-08-13 15:03:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:03:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:03:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:03:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 180.1381ms
+
+2025-08-13 15:03:36 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:03:36 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:03:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:03:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 14354.7511ms
+
+2025-08-13 15:04:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:04:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:04:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:04:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 144.9604ms
+
+2025-08-13 15:04:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:04:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:04:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:05:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 4278.5488ms
+
+2025-08-13 15:05:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:05:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:05:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:05:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 163.7113ms
+
+2025-08-13 15:05:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:05:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:05:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:05:43 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 3897.9565ms
+
+2025-08-13 15:10:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:10:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:10:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:10:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 1989.2254ms
+
+2025-08-13 15:10:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:10:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:10:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:10:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 57.5574ms
+
+2025-08-13 15:11:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:11:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:11:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:11:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 337.4871ms
+
+2025-08-13 15:11:07 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:11:07 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:11:07 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:11:07 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 14.7831ms
+
+2025-08-13 15:11:34 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:11:34 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:11:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:11:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 153.4502ms
+
+2025-08-13 15:17:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:17:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:17:58 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:17:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:17:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:17:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:17:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 54.7427ms
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:18:01 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+
+2025-08-13 15:20:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:20:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:20:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:20:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 148.9746ms
+
+2025-08-13 15:35:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:14 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:35:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:35:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 34.3477ms
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:16 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+
+2025-08-13 15:35:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:35:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 150.0662ms
+
+2025-08-13 15:35:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:35:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 15:35:43 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 10253.1372ms
+
+2025-08-13 15:36:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 15:36:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 5081.8578ms
+
+2025-08-13 15:36:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1184.9038ms
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 14.9431ms
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:36:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 15:36:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2307.9166ms
+
+2025-08-13 15:46:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:46:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1894.8087ms
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:46:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 167.6346ms
+
+2025-08-13 15:46:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:46:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:46:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 471.5622ms
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 19.8187ms
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 15:51:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 6.9094ms
+
+2025-08-13 19:30:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:21 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 19:30:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 19:30:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 32.9023ms
+
+2025-08-13 19:30:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:30:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 19:30:26 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 19:30:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 14.794ms
+
+2025-08-13 19:33:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:33:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 19:33:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 19:33:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 1978.2511ms
+
+2025-08-13 23:49:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 23:49:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 23:49:09 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-13 23:49:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 23:49:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 23:49:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-13 23:49:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1651.8877ms
+
+2025-08-13 23:49:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-13 23:49:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-13 23:49:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2576.2932ms
+

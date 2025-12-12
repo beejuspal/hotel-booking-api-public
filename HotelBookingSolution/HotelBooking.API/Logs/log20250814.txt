@@ -1,0 +1,1771 @@
+2025-08-14 00:21:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomType()" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 00:21:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomType (HotelBooking.API)" in 1566.7339ms
+
+2025-08-14 00:30:49 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 00:30:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:30:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:30:58 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 00:30:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:30:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:30:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 00:31:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 3013.7656ms
+
+2025-08-14 00:31:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:31:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:31:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:31:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:31:14 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 00:31:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 00:31:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 153.5628ms
+
+2025-08-14 00:31:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:31:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:31:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 00:31:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 491.8567ms
+
+2025-08-14 00:59:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:59:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:59:47 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 00:59:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:59:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:59:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 00:59:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2210.6028ms
+
+2025-08-14 00:59:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:59:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 00:59:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 01:00:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 14032.6675ms
+
+2025-08-14 01:00:25 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:00:25 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:00:25 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 01:00:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1405.8845ms
+
+2025-08-14 01:11:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:11:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:11:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 01:11:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1775.4847ms
+
+2025-08-14 01:11:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:11:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:11:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 01:12:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 18832.6741ms
+
+2025-08-14 01:12:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:12:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:12:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 01:12:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 343.2597ms
+
+2025-08-14 01:12:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:12:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:12:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 01:12:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 5565.7999ms
+
+2025-08-14 01:12:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:12:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:12:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 01:12:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1686.4928ms
+
+2025-08-14 01:16:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:42 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 01:16:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 01:16:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 5.7801ms
+
+2025-08-14 01:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:16:47 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 01:16:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 01:16:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 55.2727ms
+
+2025-08-14 01:18:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:18:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:18:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 01:18:25 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2288.4295ms
+
+2025-08-14 01:19:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:19:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 01:19:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 01:19:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomType()" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 01:19:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 15917.2215ms
+
+2025-08-14 01:19:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomType (HotelBooking.API)" in 69.8026ms
+
+2025-08-14 01:19:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomType()" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 01:19:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomType (HotelBooking.API)" in 6.1594ms
+
+2025-08-14 01:19:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomType()" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 01:19:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomType (HotelBooking.API)" in 4.2568ms
+
+2025-08-14 01:19:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomType()" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 01:19:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomType (HotelBooking.API)" in 2.5707ms
+
+2025-08-14 11:09:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:16 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 11:09:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 11:09:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2181.0436ms
+
+2025-08-14 11:09:18 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:09:43 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:43 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:43 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:43 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:09:43 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 101.8603ms
+
+2025-08-14 11:09:43 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 24648.0545ms
+
+2025-08-14 11:09:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:09:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 43.089ms
+
+2025-08-14 11:09:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:09:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:09:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.3326ms
+
+2025-08-14 11:10:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:10:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:10:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:10:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 6.6306ms
+
+2025-08-14 11:10:40 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:10:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:10:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 4.4808ms
+
+2025-08-14 11:10:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:10:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:10:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.683ms
+
+2025-08-14 11:10:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:10:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:10:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.2284ms
+
+2025-08-14 11:11:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:11:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:11:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:11:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 4.4155ms
+
+2025-08-14 11:12:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 5.5813ms
+
+2025-08-14 11:12:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 6.7605ms
+
+2025-08-14 11:12:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.0037ms
+
+2025-08-14 11:12:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.3705ms
+
+2025-08-14 11:12:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.197ms
+
+2025-08-14 11:12:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.2605ms
+
+2025-08-14 11:12:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.3718ms
+
+2025-08-14 11:12:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.225ms
+
+2025-08-14 11:12:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1.8853ms
+
+2025-08-14 11:12:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.0911ms
+
+2025-08-14 11:12:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:12:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:12:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1.6778ms
+
+2025-08-14 11:13:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:13:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.0754ms
+
+2025-08-14 11:13:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:13:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1.5555ms
+
+2025-08-14 11:13:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:13:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 2.8247ms
+
+2025-08-14 11:13:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 11:13:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 64.1593ms
+
+2025-08-14 11:13:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 11:13:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 407.7376ms
+
+2025-08-14 11:13:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 11:13:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 11:13:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 4.9881ms
+
+2025-08-14 11:14:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomType()" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 11:14:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomType (HotelBooking.API)" in 14.7559ms
+
+2025-08-14 11:25:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetRoomTypeById\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoomTypeById(Int32)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 11:26:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetRoomTypeById\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoomTypeById(Int32)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 11:26:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetRoomTypeById (HotelBooking.API)" in 1608.3713ms
+
+2025-08-14 11:26:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetRoomTypeById\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoomTypeById(Int32)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 11:26:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetRoomTypeById (HotelBooking.API)" in 33.7549ms
+
+2025-08-14 12:16:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:16:22 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+
+2025-08-14 12:17:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:17:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 12:17:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2447.5635ms
+
+2025-08-14 12:17:36 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:17:36 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+
+2025-08-14 12:21:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:21:55 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+
+2025-08-14 12:22:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:22:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 12:22:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2059.3324ms
+
+2025-08-14 12:22:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:22:48 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+
+2025-08-14 12:23:34 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:23:34 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+
+2025-08-14 12:23:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:23:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 12:23:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 347.2183ms
+
+2025-08-14 12:24:01 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:24:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 12:24:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.CreateRoomType (HotelBooking.API)" in 20383.9345ms
+
+2025-08-14 12:24:22 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/RoomType"
+Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_RoomTypes_Hotels_HotelId". The conflict occurred in database "HotelDB", table "dbo.Hotels", column 'HotelId'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:4ebae234-1381-4adb-9eb5-bad4dea49eb5
+Error Number:547,State:0,Class:16
+
+2025-08-14 12:25:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:25:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 12:27:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:27:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 12:27:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2075.2929ms
+
+2025-08-14 12:28:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:28:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 12:28:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.CreateRoomType (HotelBooking.API)" in 4470.4759ms
+
+2025-08-14 12:51:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:51:17 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+
+2025-08-14 12:51:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:51:22 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)"
+
+2025-08-14 12:51:39 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 12:52:10 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:52:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 12:52:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 384.8474ms
+
+2025-08-14 12:52:44 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 12:52:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 12:52:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.CreateRoomType (HotelBooking.API)" in 9622.2291ms
+
+2025-08-14 12:52:59 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 12:53:20 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 12:59:07 [Information] Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Authorization failed. "These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Guest)"
+
+2025-08-14 13:12:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:12:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 13:12:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 23.9406ms
+
+2025-08-14 13:13:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:13:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 13:13:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2109.1039ms
+
+2025-08-14 13:13:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:13:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 13:13:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 0.3478ms
+
+2025-08-14 13:13:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:13:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 13:13:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 0.1739ms
+
+2025-08-14 13:13:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:13:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 58.8502ms
+
+2025-08-14 13:13:43 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:13:43 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 13:13:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.CreateRoomType (HotelBooking.API)" in 4679.5078ms
+
+2025-08-14 13:14:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:14:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 13:14:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 279.1991ms
+
+2025-08-14 13:14:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:14:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 13:14:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 0.121ms
+
+2025-08-14 13:14:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:14:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 13.9094ms
+
+2025-08-14 13:14:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:14:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 13:14:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 13:14:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.CreateRoomType (HotelBooking.API)" in 0.368ms
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 0.3212ms
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 13:16:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 41.6401ms
+
+2025-08-14 13:16:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:16:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 13:16:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 13:16:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 8.8459ms
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 0.2958ms
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 36.8296ms
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:06:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 17.8108ms
+
+2025-08-14 14:06:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:06:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:06:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 3.0728ms
+
+2025-08-14 14:07:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:07:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:07:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:07:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 10.5671ms
+
+2025-08-14 14:09:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:09:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:09:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:09:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 4.9823ms
+
+2025-08-14 14:11:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:11:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 147.5798ms
+
+2025-08-14 14:11:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 2609.166ms
+
+2025-08-14 14:11:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:11:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 116.552ms
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 6.0793ms
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 7.8889ms
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 2.9005ms
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 2.973ms
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 67.1218ms
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 5.3124ms
+
+2025-08-14 14:11:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:11:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:11:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 405.269ms
+
+2025-08-14 14:14:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:14:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:14:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:14:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:14:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:14:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 8.7045ms
+
+2025-08-14 14:14:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:14:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:14:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:14:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 224.9958ms
+
+2025-08-14 14:17:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:17:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 12.9039ms
+
+2025-08-14 14:17:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:17:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 12.4416ms
+
+2025-08-14 14:17:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:17 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:17:17 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 7.748ms
+
+2025-08-14 14:17:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:17:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:17:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 10.5904ms
+
+2025-08-14 14:20:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:20:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:20:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:20:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 12.6509ms
+
+2025-08-14 14:21:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:21:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:21:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:21:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 145.9078ms
+
+2025-08-14 14:23:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:23:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:23:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:23:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 11.4905ms
+
+2025-08-14 14:23:18 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:23:18 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:23:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:23:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 0.6838ms
+
+2025-08-14 14:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:24:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:24:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:24:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 141.4014ms
+
+2025-08-14 14:26:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:26:59 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:26:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:26:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 7.6805ms
+
+2025-08-14 14:31:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:31:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:31:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:31:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 184.3812ms
+
+2025-08-14 14:33:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:33:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:33:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:33:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 16.2415ms
+
+2025-08-14 14:33:40 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:33:40 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:33:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-08-14 14:33:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 34.6296ms
+
+2025-08-14 14:35:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:35:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:35:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:35:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 7.7549ms
+
+2025-08-14 14:37:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:37:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:37:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:37:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 148.4214ms
+
+2025-08-14 14:39:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:39:26 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:39:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:39:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 6.9745ms
+
+2025-08-14 14:40:34 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:40:34 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:40:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:40:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 176.0463ms
+
+2025-08-14 14:40:36 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:40:36 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:40:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:40:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 8.0475ms
+
+2025-08-14 14:40:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:40:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:40:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:40:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 150.8833ms
+
+2025-08-14 14:43:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:43:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:43:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:43:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 8.0076ms
+
+2025-08-14 14:44:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:44:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:44:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:44:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 143.0548ms
+
+2025-08-14 14:46:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:46:42 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:46:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:46:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 9.4424ms
+
+2025-08-14 14:47:53 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:47:53 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:47:53 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:47:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 142.8382ms
+
+2025-08-14 14:50:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:50:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:50:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:50:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 7.489ms
+
+2025-08-14 14:53:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:53:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:53:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:53:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 143.7739ms
+
+2025-08-14 14:55:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:55:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:55:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:55:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 6.9506ms
+
+2025-08-14 14:56:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:56:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:56:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:56:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 165.5512ms
+
+2025-08-14 14:58:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:58:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:58:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:58:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 6.5137ms
+
+2025-08-14 14:58:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:58:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 14:58:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 14:58:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 153.7957ms
+
+2025-08-14 15:14:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:14:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:14:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 15:14:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 17.3391ms
+
+2025-08-14 15:18:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:18:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:18:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 15:18:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 10.0778ms
+
+2025-08-14 15:18:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:18:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:18:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 15:18:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 146.5265ms
+
+2025-08-14 15:38:19 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:38:19 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 15:38:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 15:38:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 18.4886ms
+
+2025-08-14 23:15:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:15:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:15:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 23:15:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 21.8208ms
+
+2025-08-14 23:20:08 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:20:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 23:20:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2385.5013ms
+
+2025-08-14 23:20:44 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:20:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:20:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 5.5883ms
+
+2025-08-14 23:20:44 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "PUT" "/api/RoomType/Update/7"
+System.InvalidOperationException: Unable to resolve service for type 'HotelBooking.Core.ServiceContracts.IRoomTypeService.IRoomTypeUpdaterService' while attempting to activate 'HotelBooking.API.Controllers.RoomTypeController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method452(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at HotelBooking.API.Middleware.ExceptionHandlingMiddleware.Invoke(HttpContext httpContext) in C:\Hotel-Booking-System\API\HotelBookingSolution\HotelBooking.API\Middleware\ExceptionHandlingMiddleware.cs:line 36
+
+2025-08-14 23:21:43 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:21:43 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 23:21:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2129.2171ms
+
+2025-08-14 23:22:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:22:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:22:12 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 7016.9678ms
+
+2025-08-14 23:22:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:22:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:22:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 15291.5606ms
+
+2025-08-14 23:23:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:23:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:23:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 31311.0757ms
+
+2025-08-14 23:23:44 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "PUT" "/api/RoomType/Update/6"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreatedBy', table 'HotelDB.dbo.RoomTypes'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:88cb5d1f-3656-44c5-973b-ff78e79b7b8d
+Error Number:515,State:2,Class:16
+
+2025-08-14 23:41:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomType()" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:41:56 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomType (HotelBooking.API)" in 1373.5534ms
+
+2025-08-14 23:42:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetRoomTypeById\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoomTypeById(Int32)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:42:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetRoomTypeById (HotelBooking.API)" in 67.0473ms
+
+2025-08-14 23:42:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetRoomTypeById\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoomTypeById(Int32)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:42:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetRoomTypeById (HotelBooking.API)" in 58.3753ms
+
+2025-08-14 23:42:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:42:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 23:42:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 693.8874ms
+
+2025-08-14 23:43:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:43:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:43:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 12858.6108ms
+
+2025-08-14 23:43:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:43:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:43:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 1354.9846ms
+
+2025-08-14 23:44:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:44:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:44:25 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 21248.3258ms
+
+2025-08-14 23:44:25 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "PUT" "/api/RoomType/Update/6"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'CreatedBy', table 'HotelDB.dbo.RoomTypes'; column does not allow nulls. UPDATE fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:95a2a61e-da34-470d-96e9-2360d8fd921e
+Error Number:515,State:2,Class:16
+
+2025-08-14 23:44:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:44:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:44:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 23:44:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 2.7422ms
+
+2025-08-14 23:45:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:45:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:45:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 23:45:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 0.3498ms
+
+2025-08-14 23:45:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:45:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:45:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Authorization failed for the request at filter '"HotelBooking.API.Filters.RoleAuthorizationAttribute"'.
+
+2025-08-14 23:45:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 0.1352ms
+
+2025-08-14 23:45:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:45:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 23:45:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 276.5216ms
+
+2025-08-14 23:46:07 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:46:07 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:49:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:49:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 23:49:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2085.2291ms
+
+2025-08-14 23:50:19 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:50:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:50:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 17818.8843ms
+
+2025-08-14 23:52:07 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:52:07 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:52:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.CreateRoomType (HotelBooking.API)" in 4334.3358ms
+
+2025-08-14 23:52:31 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:52:31 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:52:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 2542.7835ms
+
+2025-08-14 23:53:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:53:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-08-14 23:53:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2139.402ms
+
+2025-08-14 23:54:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:54:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateRoomType(HotelBooking.Core.DTO.RoomTypeDTOs.CreateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:54:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.CreateRoomType (HotelBooking.API)" in 1285.6314ms
+
+2025-08-14 23:54:50 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:54:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:54:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 72.1707ms
+
+2025-08-14 23:55:07 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-08-14 23:55:07 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"UpdateRoomType\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateRoomType(Int32, HotelBooking.Core.DTO.RoomTypeDTOs.UpdateRoomTypeDTO)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-08-14 23:55:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.UpdateRoomType (HotelBooking.API)" in 11139.5416ms
+

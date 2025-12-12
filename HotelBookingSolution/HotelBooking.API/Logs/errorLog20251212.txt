@@ -1,0 +1,18 @@
+2025-12-12 13:22:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllHotels\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHotels()" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-12-12 13:22:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllHotels (HotelBooking.API)" - Validation state: Valid
+
+2025-12-12 13:22:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllHotels (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 140.4801ms.
+
+2025-12-12 13:22:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllHotels (HotelBooking.API)" in 198.172ms
+
+2025-12-12 13:22:40 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllHotels" responded 200 in 1986 ms
+
+2025-12-12 13:22:40 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "GET /api/Hotel/GetAllHotels" responded 200 in 1986 ms
+

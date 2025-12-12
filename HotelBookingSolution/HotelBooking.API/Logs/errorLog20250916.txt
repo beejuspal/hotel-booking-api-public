@@ -1,0 +1,27 @@
+2025-09-16 14:52:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-09-16 14:52:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-09-16 14:52:56 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 1862.579ms
+
+2025-09-16 14:52:56 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 2048 ms
+
+2025-09-16 14:52:56 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 2048 ms
+
+2025-09-16 14:53:10 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-09-16 14:53:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-09-16 14:53:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 53.2816ms
+
+2025-09-16 14:53:10 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 55 ms
+

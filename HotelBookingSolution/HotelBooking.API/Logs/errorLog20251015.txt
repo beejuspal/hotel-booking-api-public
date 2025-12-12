@@ -1,0 +1,1949 @@
+2025-10-15 00:01:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:01:48 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 37 ms
+
+2025-10-15 00:01:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:01:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 00:01:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:19:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:19:48 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 51 ms
+
+2025-10-15 00:19:48 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:19:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 00:19:48 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:19:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1925.0619ms.
+
+2025-10-15 00:19:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2152.2432ms
+
+2025-10-15 00:19:50 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 2314 ms
+
+2025-10-15 00:19:50 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/auth/refreshtoken" responded 200 in 2314 ms
+
+2025-10-15 00:19:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:19:54 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 00:19:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:19:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 00:19:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:20:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 31347.4089ms
+
+2025-10-15 00:20:26 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/Reservation/CreateReservation"
+Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the CHECK constraint "CHK_AgeGroup". The conflict occurred in database "HotelDB", table "dbo.Guests", column 'AgeGroup'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:06fb4fd1-321b-45ea-9c58-f3b6827e9321
+Error Number:547,State:0,Class:16
+
+2025-10-15 00:20:26 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 500 in 31674 ms
+
+2025-10-15 00:20:26 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 500 in 31674 ms
+
+2025-10-15 00:21:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:21:06 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 00:21:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:21:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 00:21:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:21:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12257.9484ms.
+
+2025-10-15 00:21:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 12264.668ms
+
+2025-10-15 00:21:18 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 200 in 12270 ms
+
+2025-10-15 00:21:18 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 200 in 12270 ms
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:04 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 0 ms
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 22.3628ms.
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 32.7205ms
+
+2025-10-15 00:23:04 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 40 ms
+
+2025-10-15 00:23:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 228.8898ms.
+
+2025-10-15 00:23:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 288.3448ms
+
+2025-10-15 00:23:05 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 353 ms
+
+2025-10-15 00:23:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:21 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 00:23:21 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 00:23:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:23:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 9.5222ms.
+
+2025-10-15 00:23:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 15.7135ms
+
+2025-10-15 00:23:21 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 404 in 20 ms
+
+2025-10-15 00:23:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:24 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 00:23:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 00:23:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:23:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.9423ms.
+
+2025-10-15 00:23:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 6.1162ms
+
+2025-10-15 00:23:24 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 404 in 6 ms
+
+2025-10-15 00:23:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:29 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 00:23:29 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 00:23:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:23:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.7752ms.
+
+2025-10-15 00:23:29 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 11.3902ms
+
+2025-10-15 00:23:29 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 404 in 12 ms
+
+2025-10-15 00:23:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:35 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 00:23:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:23:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 00:23:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:23:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.7878ms.
+
+2025-10-15 00:23:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 7.0624ms
+
+2025-10-15 00:23:35 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 404 in 7 ms
+
+2025-10-15 00:25:15 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:25:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 00:25:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:25:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 97.3017ms.
+
+2025-10-15 00:25:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 136.1756ms
+
+2025-10-15 00:25:15 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 136 ms
+
+2025-10-15 00:25:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:25:23 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 00:25:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:25:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 00:25:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:25:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9.252ms.
+
+2025-10-15 00:25:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 15.1671ms
+
+2025-10-15 00:25:23 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 200 in 16 ms
+
+2025-10-15 00:44:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:44:11 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 27 ms
+
+2025-10-15 00:44:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:44:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 00:44:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:44:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 290.2807ms.
+
+2025-10-15 00:44:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 291.4476ms
+
+2025-10-15 00:44:11 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 292 ms
+
+2025-10-15 00:44:15 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:44:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 00:44:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:44:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 78.7069ms.
+
+2025-10-15 00:44:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 99.9497ms
+
+2025-10-15 00:44:15 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 100 ms
+
+2025-10-15 00:44:36 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:44:36 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 00:44:36 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:44:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 00:44:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:44:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9323.4735ms.
+
+2025-10-15 00:44:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 9325.7336ms
+
+2025-10-15 00:44:46 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 200 in 9326 ms
+
+2025-10-15 00:44:46 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 200 in 9326 ms
+
+2025-10-15 00:45:12 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:45:12 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 00:45:12 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:45:12 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 00:45:12 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:45:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2766.3333ms.
+
+2025-10-15 00:45:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 2781.0792ms
+
+2025-10-15 00:45:15 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 400 in 2786 ms
+
+2025-10-15 00:45:15 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 400 in 2786 ms
+
+2025-10-15 00:45:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:45:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 00:45:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:45:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 84.4644ms.
+
+2025-10-15 00:45:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 94.1632ms
+
+2025-10-15 00:45:41 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 105 ms
+
+2025-10-15 00:46:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:46:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 00:46:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:46:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 26.7109ms.
+
+2025-10-15 00:46:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 29.2871ms
+
+2025-10-15 00:46:13 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 31 ms
+
+2025-10-15 00:46:16 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:46:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 00:46:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:46:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10.3689ms.
+
+2025-10-15 00:46:16 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 11.6997ms
+
+2025-10-15 00:46:16 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 12 ms
+
+2025-10-15 00:46:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:46:20 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/logout" responded 204 in 0 ms
+
+2025-10-15 00:46:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 00:46:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Logout\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Logout(HotelBooking.Core.DTO.LogoutRequestDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 00:46:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 00:46:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 151.5496ms.
+
+2025-10-15 00:46:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Logout (HotelBooking.API)" in 157.2118ms
+
+2025-10-15 00:46:20 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/logout" responded 200 in 160 ms
+
+2025-10-15 12:33:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:33:45 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/login" responded 204 in 34 ms
+
+2025-10-15 12:33:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:33:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(HotelBooking.Core.DTO.UserDTOs.LoginUserDTO)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 12:33:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:33:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2238.801ms.
+
+2025-10-15 12:33:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.Login (HotelBooking.API)" in 2527.9687ms
+
+2025-10-15 12:33:47 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/login" responded 200 in 2656 ms
+
+2025-10-15 12:33:47 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/auth/login" responded 200 in 2656 ms
+
+2025-10-15 12:33:49 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:33:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 12:33:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:33:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 130.8546ms.
+
+2025-10-15 12:33:49 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 162.0192ms
+
+2025-10-15 12:33:49 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 174 ms
+
+2025-10-15 12:34:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:34:04 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 12:34:04 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:34:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 12:34:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:34:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 109.4923ms.
+
+2025-10-15 12:34:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 128.1332ms
+
+2025-10-15 12:34:04 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 200 in 176 ms
+
+2025-10-15 12:34:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:34:14 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 12:34:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:34:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 12:34:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:34:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3929.2115ms.
+
+2025-10-15 12:34:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 3938.9222ms
+
+2025-10-15 12:34:18 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 200 in 3942 ms
+
+2025-10-15 12:34:18 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 200 in 3942 ms
+
+2025-10-15 12:37:19 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:37:19 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 0 ms
+
+2025-10-15 12:37:19 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:37:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 12:37:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:37:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9.0117ms.
+
+2025-10-15 12:37:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 12.5941ms
+
+2025-10-15 12:37:19 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 18 ms
+
+2025-10-15 12:37:20 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:37:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 12:37:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:37:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 24.1741ms.
+
+2025-10-15 12:37:20 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 67.2204ms
+
+2025-10-15 12:37:20 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 67 ms
+
+2025-10-15 12:37:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:37:33 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 12:37:34 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:37:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 12:37:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:37:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.7072ms.
+
+2025-10-15 12:37:34 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 6.8628ms
+
+2025-10-15 12:37:34 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 200 in 7 ms
+
+2025-10-15 12:38:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:38:03 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 12:38:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:38:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 12:38:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:38:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 38664.8416ms.
+
+2025-10-15 12:38:42 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 38667.671ms
+
+2025-10-15 12:38:42 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 200 in 38668 ms
+
+2025-10-15 12:38:42 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 200 in 38668 ms
+
+2025-10-15 12:48:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:35 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 31 ms
+
+2025-10-15 12:48:35 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 12:48:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 12:48:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:48:35 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:48:36 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1455.1226ms.
+
+2025-10-15 12:48:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 1625.493ms
+
+2025-10-15 12:48:37 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 1783 ms
+
+2025-10-15 12:48:37 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "GET /api/user/GetUserProfile" responded 200 in 1783 ms
+
+2025-10-15 12:48:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1590.1115ms.
+
+2025-10-15 12:48:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 1779.4387ms
+
+2025-10-15 12:48:37 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 1944 ms
+
+2025-10-15 12:48:37 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 1944 ms
+
+2025-10-15 12:48:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:47 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 0 ms
+
+2025-10-15 12:48:47 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 12:48:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:48:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 333.9509ms.
+
+2025-10-15 12:48:47 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 356.401ms
+
+2025-10-15 12:48:47 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 362 ms
+
+2025-10-15 12:48:52 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:52 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 12:48:52 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 12:48:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:48:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 60.897ms.
+
+2025-10-15 12:48:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 77.0216ms
+
+2025-10-15 12:48:52 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 200 in 81 ms
+
+2025-10-15 12:48:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:58 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 12:48:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:48:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 12:48:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:49:44 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 46082.4794ms
+
+2025-10-15 12:49:46 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/Reservation/CreateReservation"
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HotelBooking.Core.Services.ReservationService.ReservationService.CreateReservationAsync(ReservationCreateRequestDto reservationCreateRequestDto) in C:\Hotel-Booking-System\API\HotelBookingSolution\HotelBooking.Core\Services\ReservationService\ReservationService.cs:line 141
+   at HotelBooking.API.Controllers.ReservationController.CreateReservation(ReservationCreateRequestDto request) in C:\Hotel-Booking-System\API\HotelBookingSolution\HotelBooking.API\Controllers\ReservationController.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at StackExchange.Profiling.MiniProfilerMiddleware.Invoke(HttpContext context) in C:\projects\dotnet\src\MiniProfiler.AspNetCore\MiniProfilerMiddleware.cs:line 94
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at HotelBooking.API.Middleware.ExceptionHandlingMiddleware.Invoke(HttpContext httpContext) in C:\Hotel-Booking-System\API\HotelBookingSolution\HotelBooking.API\Middleware\ExceptionHandlingMiddleware.cs:line 38
+
+2025-10-15 12:49:46 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 500 in 48024 ms
+
+2025-10-15 12:49:46 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 500 in 48024 ms
+
+2025-10-15 12:50:25 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:50:25 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 28 ms
+
+2025-10-15 12:50:25 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 12:50:25 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 12:50:25 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 12:51:15 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 49753.5905ms
+
+2025-10-15 12:51:15 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/Reservation/CreateReservation"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ReservationRoomID'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7705c143-ee81-4117-be43-cd7647ff6503
+Error Number:207,State:1,Class:16
+
+2025-10-15 12:51:15 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 500 in 50166 ms
+
+2025-10-15 12:51:15 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 500 in 50166 ms
+
+2025-10-15 13:03:40 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:03:40 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 30 ms
+
+2025-10-15 13:03:40 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:03:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 13:03:40 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 13:04:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:04:57 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 36 ms
+
+2025-10-15 13:04:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:04:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 13:04:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 13:04:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1756.0149ms.
+
+2025-10-15 13:04:59 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1951.4498ms
+
+2025-10-15 13:04:59 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 2064 ms
+
+2025-10-15 13:04:59 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/auth/refreshtoken" responded 200 in 2064 ms
+
+2025-10-15 13:05:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:05:02 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 13:05:02 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:05:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 13:05:02 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 13:08:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:08:38 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 29 ms
+
+2025-10-15 13:08:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:08:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 13:08:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 13:39:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:39:51 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 30 ms
+
+2025-10-15 13:39:51 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:39:51 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 13:39:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 13:39:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1981.2932ms.
+
+2025-10-15 13:39:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 2170.1789ms
+
+2025-10-15 13:39:54 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 2262 ms
+
+2025-10-15 13:39:54 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/auth/refreshtoken" responded 200 in 2262 ms
+
+2025-10-15 13:39:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:39:57 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 13:39:57 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:39:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 13:39:57 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 13:53:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:53:03 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 36 ms
+
+2025-10-15 13:53:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 13:53:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 13:53:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 13:54:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 70248.6273ms
+
+2025-10-15 13:54:13 [Error] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Unhandled exception occurred. "POST" "/api/Reservation/CreateReservation"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ReservationID'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5b56f9c4-7f7f-4de0-95a4-6d7e20dd63e4
+Error Number:207,State:1,Class:16
+
+2025-10-15 13:54:13 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 500 in 70756 ms
+
+2025-10-15 13:54:13 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 500 in 70756 ms
+
+2025-10-15 14:04:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:04:06 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 28 ms
+
+2025-10-15 14:04:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:04:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 14:04:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:04:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1787.8484ms.
+
+2025-10-15 14:04:08 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 1964.1539ms
+
+2025-10-15 14:04:08 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 2083 ms
+
+2025-10-15 14:04:08 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/auth/refreshtoken" responded 200 in 2083 ms
+
+2025-10-15 14:04:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:04:11 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 14:04:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:04:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 14:04:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:04:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10258.7446ms.
+
+2025-10-15 14:04:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 10279.4929ms
+
+2025-10-15 14:04:22 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 200 in 10326 ms
+
+2025-10-15 14:04:22 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 200 in 10326 ms
+
+2025-10-15 14:05:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:05:24 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 0 ms
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 72.1579ms.
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 80.9201ms
+
+2025-10-15 14:05:24 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 94 ms
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 158.2699ms.
+
+2025-10-15 14:05:24 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 194.0545ms
+
+2025-10-15 14:05:24 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 275 ms
+
+2025-10-15 14:05:33 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:05:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 14:05:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:05:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 39.3123ms.
+
+2025-10-15 14:05:33 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 101.1382ms
+
+2025-10-15 14:05:33 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 102 ms
+
+2025-10-15 14:05:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:05:54 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 14:05:54 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:05:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 14:05:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:05:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 10.7375ms.
+
+2025-10-15 14:05:54 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 15.2463ms
+
+2025-10-15 14:05:54 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 404 in 18 ms
+
+2025-10-15 14:07:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:07:28 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 0 ms
+
+2025-10-15 14:07:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:07:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 14:07:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:07:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.262ms.
+
+2025-10-15 14:07:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 25.0139ms
+
+2025-10-15 14:07:28 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 27 ms
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 44.4844ms.
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 45.5956ms
+
+2025-10-15 14:07:30 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 46 ms
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 87.8393ms.
+
+2025-10-15 14:07:30 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 96.9155ms
+
+2025-10-15 14:07:30 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 97 ms
+
+2025-10-15 14:07:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:07:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 14:07:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:07:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 32.2065ms.
+
+2025-10-15 14:07:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 69.2026ms
+
+2025-10-15 14:07:32 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 70 ms
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:08:58 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 0 ms
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 11.1305ms.
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 11.8106ms
+
+2025-10-15 14:08:58 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 12 ms
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 37.0539ms.
+
+2025-10-15 14:08:58 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 38.3486ms
+
+2025-10-15 14:08:58 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 39 ms
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:09:39 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 0 ms
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9.3452ms.
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 10.0374ms
+
+2025-10-15 14:09:39 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 10 ms
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 32.5877ms.
+
+2025-10-15 14:09:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 33.3773ms
+
+2025-10-15 14:09:39 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 33 ms
+
+2025-10-15 14:09:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:09:46 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 14:09:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 14:09:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 14:09:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 14:09:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.9557ms.
+
+2025-10-15 14:09:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 10.8381ms
+
+2025-10-15 14:09:46 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 200 in 11 ms
+
+2025-10-15 15:26:10 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:26:10 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 0 ms
+
+2025-10-15 15:26:10 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:26:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 15:26:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:26:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 41.644ms.
+
+2025-10-15 15:26:10 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 42.5132ms
+
+2025-10-15 15:26:10 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 44 ms
+
+2025-10-15 15:27:14 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:27:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:27:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:27:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 30.2284ms.
+
+2025-10-15 15:27:14 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 31.3512ms
+
+2025-10-15 15:27:14 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 35 ms
+
+2025-10-15 15:29:55 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:29:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:29:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:29:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 57.9422ms.
+
+2025-10-15 15:29:55 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 59.7919ms
+
+2025-10-15 15:29:55 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 60 ms
+
+2025-10-15 15:32:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:32:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomTypeWithPagination\", controller = \"RoomType\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomTypeWithPagination(Int32, Int32)" on controller "HotelBooking.API.Controllers.RoomTypeController" ("HotelBooking.API").
+
+2025-10-15 15:32:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomTypeWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:32:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomTypeWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 61.521ms.
+
+2025-10-15 15:32:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomTypeController.GetAllRoomTypeWithPagination (HotelBooking.API)" in 65.8345ms
+
+2025-10-15 15:32:03 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/RoomType/GetAllRoomTypeWithPagination" responded 200 in 103 ms
+
+2025-10-15 15:36:05 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:36:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:36:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:36:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 42.2076ms.
+
+2025-10-15 15:36:05 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 47.062ms
+
+2025-10-15 15:36:05 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 86 ms
+
+2025-10-15 15:36:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:36:28 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 15:36:28 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:36:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 15:36:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:36:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 3.7019ms.
+
+2025-10-15 15:36:28 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 7.1801ms
+
+2025-10-15 15:36:28 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 200 in 7 ms
+
+2025-10-15 15:37:39 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:37:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:37:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:37:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 38.939ms.
+
+2025-10-15 15:37:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 40.5506ms
+
+2025-10-15 15:37:39 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 41 ms
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:37:41 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 0 ms
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 14.6163ms.
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 16.6277ms
+
+2025-10-15 15:37:41 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 18 ms
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 24.5309ms.
+
+2025-10-15 15:37:41 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 25.2839ms
+
+2025-10-15 15:37:41 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 26 ms
+
+2025-10-15 15:38:00 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllHotelWitPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHotelWitPagination(Int32, Int32)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:38:00 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllHotelWitPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllHotelWitPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 45.8403ms.
+
+2025-10-15 15:38:01 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllHotelWitPagination (HotelBooking.API)" in 51.8729ms
+
+2025-10-15 15:38:01 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllHotelWitPagination" responded 200 in 55 ms
+
+2025-10-15 15:38:03 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetHotelById\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotelById(Int32)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:38:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetHotelById (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetHotelById (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 31.7572ms.
+
+2025-10-15 15:38:03 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetHotelById (HotelBooking.API)" in 33.8095ms
+
+2025-10-15 15:38:03 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetHotelById/12" responded 200 in 36 ms
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllHotels\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHotels()" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllHotels (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllAmenities\", controller = \"Amenity\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAmenities()" on controller "HotelBooking.API.Controllers.AmenityController" ("HotelBooking.API").
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AmenityController.GetAllAmenities (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllHotels (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 17.2802ms.
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllHotels (HotelBooking.API)" in 20.1111ms
+
+2025-10-15 15:38:09 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllHotels" responded 200 in 29 ms
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AmenityController.GetAllAmenities (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 26.9722ms.
+
+2025-10-15 15:38:09 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AmenityController.GetAllAmenities (HotelBooking.API)" in 32.3151ms
+
+2025-10-15 15:38:09 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Amenity/GetAllAmenities" responded 200 in 42 ms
+
+2025-10-15 15:38:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:11 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Hotel/SearchHotelRooms" responded 204 in 0 ms
+
+2025-10-15 15:38:11 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"SearchHotelRooms\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchHotelRooms(HotelBooking.Core.DTO.HotelDto.RoomSearchRequest)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:38:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.SearchHotelRooms (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.SearchHotelRooms (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 34.4844ms.
+
+2025-10-15 15:38:11 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.SearchHotelRooms (HotelBooking.API)" in 50.2149ms
+
+2025-10-15 15:38:11 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Hotel/SearchHotelRooms" responded 200 in 53 ms
+
+2025-10-15 15:38:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:22 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Hotel/SearchHotelRooms" responded 204 in 0 ms
+
+2025-10-15 15:38:22 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"SearchHotelRooms\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchHotelRooms(HotelBooking.Core.DTO.HotelDto.RoomSearchRequest)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:38:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.SearchHotelRooms (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.SearchHotelRooms (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 5.0329ms.
+
+2025-10-15 15:38:22 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.SearchHotelRooms (HotelBooking.API)" in 5.9705ms
+
+2025-10-15 15:38:22 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Hotel/SearchHotelRooms" responded 200 in 6 ms
+
+2025-10-15 15:38:23 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllRoomsWithPagination\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllRoomsWithPagination(Int32, Int32)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 15:38:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.GetAllRoomsWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.GetAllRoomsWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 29.0435ms.
+
+2025-10-15 15:38:23 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.GetAllRoomsWithPagination (HotelBooking.API)" in 39.6958ms
+
+2025-10-15 15:38:23 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Room/GetAllRoomsWithPagination" responded 200 in 43 ms
+
+2025-10-15 15:38:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 15:38:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 15:38:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 15:38:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 30.9131ms.
+
+2025-10-15 15:38:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 32.5823ms
+
+2025-10-15 15:38:27 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 33 ms
+
+2025-10-15 16:30:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:30:32 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 0 ms
+
+2025-10-15 16:30:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:30:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 16:30:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:30:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 67.8908ms.
+
+2025-10-15 16:30:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 72.7943ms
+
+2025-10-15 16:30:32 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 73 ms
+
+2025-10-15 16:40:45 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:40:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetFilteredUserReservations\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredUserReservations(Int32, HotelBooking.Core.DTO.ReservationDto.ReservationFilterDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:40:45 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:40:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 4450.301ms.
+
+2025-10-15 16:40:50 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" in 4651.0079ms
+
+2025-10-15 16:40:50 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/user/15/filter" responded 200 in 4781 ms
+
+2025-10-15 16:40:50 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/user/15/filter" responded 200 in 4781 ms
+
+2025-10-15 16:41:18 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:18 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:18 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/user/GetUserProfile" responded 204 in 8 ms
+
+2025-10-15 16:41:18 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllFeaturedHoteslWithPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFeaturedHoteslWithPagination(HotelBooking.Core.DTO.HotelDto.HotelSearchRequestDto)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 16:41:18 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:41:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetProfile\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProfile()" on controller "HotelBooking.API.Controllers.UserController" ("HotelBooking.API").
+
+2025-10-15 16:41:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:41:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 231.1146ms.
+
+2025-10-15 16:41:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 85.3655ms.
+
+2025-10-15 16:41:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllFeaturedHoteslWithPagination (HotelBooking.API)" in 278.1859ms
+
+2025-10-15 16:41:19 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.UserController.GetProfile (HotelBooking.API)" in 98.1514ms
+
+2025-10-15 16:41:19 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/user/GetUserProfile" responded 200 in 286 ms
+
+2025-10-15 16:41:19 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllFeaturedHoteslWithPagination" responded 200 in 294 ms
+
+2025-10-15 16:41:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:32 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Room/CalculateRoomPrice" responded 204 in 0 ms
+
+2025-10-15 16:41:32 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CalculateRoomCosts\", controller = \"Room\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CalculateRoomCosts(HotelBooking.Core.DTO.RoomCostDto.RoomCostRequestDto)" on controller "HotelBooking.API.Controllers.RoomController" ("HotelBooking.API").
+
+2025-10-15 16:41:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:41:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 82.7543ms.
+
+2025-10-15 16:41:32 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.RoomController.CalculateRoomCosts (HotelBooking.API)" in 95.3486ms
+
+2025-10-15 16:41:32 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Room/CalculateRoomPrice" responded 200 in 100 ms
+
+2025-10-15 16:41:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:37 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/Reservation/CreateReservation" responded 204 in 0 ms
+
+2025-10-15 16:41:37 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"CreateReservation\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateReservation(HotelBooking.Core.DTO.ReservationDto.ReservationCreateRequestDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:41:37 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:41:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 2069.1903ms.
+
+2025-10-15 16:41:39 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.CreateReservation (HotelBooking.API)" in 2081.9687ms
+
+2025-10-15 16:41:39 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/CreateReservation" responded 200 in 2086 ms
+
+2025-10-15 16:41:39 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/CreateReservation" responded 200 in 2086 ms
+
+2025-10-15 16:41:52 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:41:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetFilteredUserReservations\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredUserReservations(Int32, HotelBooking.Core.DTO.ReservationDto.ReservationFilterDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:41:52 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:41:53 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1699.195ms.
+
+2025-10-15 16:41:53 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" in 1702.0179ms
+
+2025-10-15 16:41:53 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/user/15/filter" responded 200 in 1702 ms
+
+2025-10-15 16:41:53 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/user/15/filter" responded 200 in 1702 ms
+
+2025-10-15 16:42:25 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:42:25 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetFilteredUserReservations\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredUserReservations(Int32, HotelBooking.Core.DTO.ReservationDto.ReservationFilterDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:42:25 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:42:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 1225.0013ms.
+
+2025-10-15 16:42:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" in 1225.9543ms
+
+2025-10-15 16:42:26 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/user/15/filter" responded 200 in 1226 ms
+
+2025-10-15 16:42:26 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/user/15/filter" responded 200 in 1226 ms
+
+2025-10-15 16:42:38 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:42:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetFilteredUserReservations\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredUserReservations(Int32, HotelBooking.Core.DTO.ReservationDto.ReservationFilterDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:42:38 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:43:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 25560.7384ms.
+
+2025-10-15 16:43:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" in 25592.8081ms
+
+2025-10-15 16:43:04 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/user/15/filter" responded 200 in 25596 ms
+
+2025-10-15 16:43:04 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/user/15/filter" responded 200 in 25596 ms
+
+2025-10-15 16:43:06 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:43:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetFilteredUserReservations\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredUserReservations(Int32, HotelBooking.Core.DTO.ReservationDto.ReservationFilterDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:43:06 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:43:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15521.7438ms.
+
+2025-10-15 16:43:21 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" in 15522.9468ms
+
+2025-10-15 16:43:21 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/user/15/filter" responded 200 in 15523 ms
+
+2025-10-15 16:43:21 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/user/15/filter" responded 200 in 15523 ms
+
+2025-10-15 16:43:27 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:43:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetFilteredUserReservations\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredUserReservations(Int32, HotelBooking.Core.DTO.ReservationDto.ReservationFilterDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:43:27 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:44:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 36446.0882ms.
+
+2025-10-15 16:44:04 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" in 36447.1988ms
+
+2025-10-15 16:44:04 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/user/15/filter" responded 200 in 36447 ms
+
+2025-10-15 16:44:04 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/user/15/filter" responded 200 in 36447 ms
+
+2025-10-15 16:45:13 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:45:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetFilteredUserReservations\", controller = \"Reservation\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFilteredUserReservations(Int32, HotelBooking.Core.DTO.ReservationDto.ReservationFilterDto)" on controller "HotelBooking.API.Controllers.ReservationController" ("HotelBooking.API").
+
+2025-10-15 16:45:13 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:45:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 13352.7748ms.
+
+2025-10-15 16:45:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.ReservationController.GetFilteredUserReservations (HotelBooking.API)" in 13362.8066ms
+
+2025-10-15 16:45:26 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/Reservation/user/15/filter" responded 200 in 13369 ms
+
+2025-10-15 16:45:26 [Warning] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+Slow Request: "POST /api/Reservation/user/15/filter" responded 200 in 13369 ms
+
+2025-10-15 16:45:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:45:46 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "OPTIONS /api/auth/refreshtoken" responded 204 in 0 ms
+
+2025-10-15 16:45:46 [Information] Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+CORS policy execution successful.
+
+2025-10-15 16:45:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"RefreshToken\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(HotelBooking.Core.DTO.RefreshTokenDto.UserRefreshTokenRequestDto)" on controller "HotelBooking.API.Controllers.AuthController" ("HotelBooking.API").
+
+2025-10-15 16:45:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:45:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 77.6649ms.
+
+2025-10-15 16:45:46 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.AuthController.RefreshToken (HotelBooking.API)" in 86.151ms
+
+2025-10-15 16:45:46 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "POST /api/auth/refreshtoken" responded 200 in 90 ms
+
+2025-10-15 16:46:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Route matched with "{action = \"GetAllHotelWitPagination\", controller = \"Hotel\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHotelWitPagination(Int32, Int32)" on controller "HotelBooking.API.Controllers.HotelController" ("HotelBooking.API").
+
+2025-10-15 16:46:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executing action method "HotelBooking.API.Controllers.HotelController.GetAllHotelWitPagination (HotelBooking.API)" - Validation state: Valid
+
+2025-10-15 16:46:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action method "HotelBooking.API.Controllers.HotelController.GetAllHotelWitPagination (HotelBooking.API)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 61.8386ms.
+
+2025-10-15 16:46:26 [Information] Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Executed action "HotelBooking.API.Controllers.HotelController.GetAllHotelWitPagination (HotelBooking.API)" in 66.6197ms
+
+2025-10-15 16:46:26 [Information] HotelBooking.API.Middleware.ExceptionHandlingMiddleware
+HTTP "GET /api/Hotel/GetAllHotelWitPagination" responded 200 in 70 ms
+
